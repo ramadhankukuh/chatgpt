@@ -5,7 +5,7 @@ import { generatePayload, parseOpenAIStream } from '@/utils/openAI'
 import { verifySignature } from '@/utils/auth'
 import type { APIRoute } from 'astro'
 
-const apiKey = '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'
+const apiKey = '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'
 const httpsProxy = import.meta.env.HTTPS_PROXY
 const baseUrl = ((import.meta.env.OPENAI_API_BASE_URL) || 'https://api.openai.com').trim().replace(/\/$/, '')
 const sitePassword = import.meta.env.SITE_PASSWORD || ''
